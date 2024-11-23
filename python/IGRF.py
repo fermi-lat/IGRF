@@ -9,7 +9,6 @@ class IGRF:
     
     def __init__(self):
        igrf.initize()
-       print ('igrf initialized!')
        self.BNorth=0
        self.BEast=0
        self.BDown=0
