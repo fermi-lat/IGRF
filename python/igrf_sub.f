@@ -625,7 +625,7 @@ C ### FILMOD, DTEMOD arrays +1
 C
 C ### numye = numye + 1 ; is number of years represented by IGRF
 C
-        NUMYE=9
+        NUMYE=8
 C
 C  IS=0 FOR SCHMIDT NORMALIZATION   IS=1 GAUSS NORMALIZATION
 C  IU  IS INPUT UNIT NUMBER FOR IGRF COEFFICIENT SETS
