@@ -1,6 +1,9 @@
 from IGRF import IGRF
 from numpy import *
-import pylab as p
+#import pylab as p
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as p
 
 mfield=IGRF()
 
@@ -35,5 +38,6 @@ for arr in [cutoff,bb0,ilat,ilambda,ir]:
     
     p.xlim(-180,180)
     p.colorbar()
-
-p.show()
+p.savefig('test_IGRF.png')
+print('figure saved in test_IGRF.png')
+#p.show()
