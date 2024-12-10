@@ -2,7 +2,7 @@
  * Package IGRF
  *                  EOH
 
- IGRF-03-05-00 09-Dec-2024 monzani Restore commit 8a9b85e to allow compiling on S3DF
+ IGRF-03-04-01 09-Dec-2024 monzani Reverting one additional commit for compatibility with rhel6
  IGRF-03-04-00 09-Dec-2024 monzani Add IGRF-14 parameters for compatibility for 2025-2023
 - Additionally, revert commit 8a9b85e for compatibility with the rhel6 cluster
  IGRF-03-03-00 19-Mar-2024 monzani Specify version of numpy for compatibility with ISOC_ENV
